@@ -1,0 +1,22 @@
+.container {
+  max-width: 1140px;
+  padding: 0 150px;
+  margin: 0 auto;
+  &__testimonial {
+    display: flex;
+  }
+  &__contact {
+    display: flex;
+  }
+}
+
+.header {
+  &__container {
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+}
